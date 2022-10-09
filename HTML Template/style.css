@@ -1,0 +1,569 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600&family=Montserrat:wght@100;300;400&family=Raleway:wght@100;200;400&family=Rubik:wght@300;400;500&display=swap');
+
+/*              Sass Template           */
+/*  global classes  */
+
+* {
+
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+button,
+button:focus {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+/* typography classes */
+
+
+.font-rale {
+	font-family: "Raleway", cursive;
+}
+
+.font-rubik {
+	font-family: "Rubik", cursive;
+}
+
+.font-montserrat {
+	font-family: "Montserrat", cursive;
+}
+
+.font-size-12 {
+	font-size: 12px;
+}
+
+.font-size-14 {
+	font-size: 14px;
+}
+
+.font-size-16 {
+	font-size: 16px;
+}
+
+.font-size-18 {
+	font-size: 20px;
+}
+
+.font-size-20 {
+	font-size: 20px;
+}
+
+.font-size-26 {
+	font-size: 26px;
+}
+
+.font-weight-light {
+	font-weight: 300;
+}
+
+.font-weight-normal {
+	font-weight: 400;
+}
+
+.font-weight-title {
+	font-weight: 500;
+}
+
+/* Color Template  */
+.color-primary {
+	color: #000000;
+}
+
+.color-light {
+	color: #FFFFFF
+}
+
+
+.color-primary-bg {
+	background: linear-gradient(to right, #0250c5 0%, #d43f8d 100%);
+}
+
+.color-primary-bg-medium {
+	background: linear-gradient(to right, #0250c5be 0%, #d43f8cbb 100%);
+
+}
+
+.color-primary-bg-light {
+	background: linear-gradient(to right, #0250c582 0%, #d43f8c84 100%);
+
+}
+
+.color-fon-bg {
+	background: #f8f8f8
+}
+
+.color-gradient {
+	background: linear-gradient(to right, #0250c5 0%, #d43f8d 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: #000000;
+}
+
+.color-second {
+	color: #00A5C4;
+}
+
+.color-second-bg {
+	background: #00A5C4;
+}
+
+.color-yellow {
+	color: #FFD289;
+}
+
+.color-yellow-bg {
+	background: #FFD289;
+}
+
+/*general template*/
+.button-std {
+	background: linear-gradient(to right, #0250c5be 0%, #d43f8cbb 100%);
+}
+
+.button-std:hover {
+	color: #f8f8f8;
+	opacity: 0.8;
+}
+
+
+
+/*nav bar template*/
+nav a::before {
+	/*content: '';
+	display: block;
+	height: 5px;
+	background: rgba(255, 0, 0, 0.7);
+	position: absolute;
+	bottom: -.75em;
+	left: 0;
+	right: 0;
+	transform: scale(0, 1);
+	transform-origin: left;
+	transition: transform ease-in-out 250ms;*/
+}
+
+
+@media (min-width: 992px) {
+	.form-search {
+		margin-left: 15px;
+	}
+}
+
+.search-area {
+	height: 70%;
+	background: linear-gradient(to right, #0250c57a 0%, #d43f8c83 100%);
+	border-radius: 30px;
+}
+
+.search-area {
+	width: 200px !important
+}
+
+
+
+/*  topSale template   */
+
+#topSale .topSale_main_container .topSale_title_container {
+	display: block;
+	position: relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+#topSale .topSale_main_container {
+	padding: 5px;
+}
+
+
+
+#topSale .topSale_title {
+	margin-bottom: 16px;
+	margin-top: 8px;
+
+}
+
+#topSale .topSale_nav_container {
+	display: block;
+	position: absolute;
+	right: 5px;
+	bottom: 14px
+}
+
+#topSale .topSale_nav {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	padding: 0.4em;
+	width: 1.7em;
+	height: 1.7em;
+	border-radius: 100%;
+}
+
+#topSale .topSale_nav i {
+	color: #dadada;
+	font-size: 14px;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease
+}
+
+#topSale .topSale_prev:hover {
+	background: #f8f9fa;
+}
+
+#topSale .topSale_prev:hover i {
+	color: #000000;
+}
+
+#topSale .topSale_next:hover {
+	background: linear-gradient(to right, #0250c5 0%, #d43f8d 100%);
+
+}
+
+#topSale .topSale_next:hover i {
+	color: #ffffff
+}
+
+#topSale .topSale_prev {
+	margin-right: 10px
+}
+
+#topSale .topSale_slider_container {
+	padding-top: 13px;
+}
+
+#topSale .topSale_item {
+	width: 100%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 30px;
+	padding-right: 30px;
+
+
+}
+
+#topSale .topSale_item {
+	border: 1px solid;
+	border-color: transparent;
+
+}
+
+#topSale .topSale_item:hover {
+	border: 1px solid;
+	border-image: linear-gradient(20deg, #f92056 38%, #00deff 65%);
+	border-image-slice: 1;
+}
+
+#topSale .product-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-self: center;
+	width: 150px;
+	height: 150px;
+
+}
+
+#topSale .product-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	margin-top: 15px
+}
+
+#topSale .product-name {
+	height: 70px;
+}
+
+#topSale .owl-carousel .topSale_item .topSale_product:hover .product-name span {
+	background: linear-gradient(to right, #0250c5 0%, #d43f8d 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: #0250c5;
+
+}
+
+#topSale .product-rating {
+	margin-top: 10px
+}
+
+#topSale .product-price {
+	margin-top: 5px
+}
+
+#topSale .product-add-button {
+	margin-top: 5px
+}
+
+#topSale .product-add-button button {
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease
+}
+
+#topSale .product-add-button button:hover {
+	color: #f8f8f8;
+	opacity: 0.8;
+}
+
+
+
+
+/*   specialPrice Section Template */
+
+#specialPrice .card {
+	align-items: center;
+	justify-content: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#specialPrice .card:hover {
+	border: 1px solid;
+	border-image: linear-gradient(20deg, #f92056 38%, #00deff 65%);
+	border-image-slice: 1;
+}
+
+#specialPrice .card-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-self: center;
+	width: 200px;
+	height: 200px;
+}
+
+#specialPrice .card-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	margin-top: 15px
+}
+
+#specialPrice .card-body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	margin-top: 5px
+}
+
+#specialPrice .card-name {
+	height: 70px;
+}
+
+#specialPrice .card:hover .card-name span {
+	background: linear-gradient(to right, #0250c5 0%, #d43f8d 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: #0250c5;
+}
+
+#specialPrice .card-rating {
+	margin-top: 10px
+}
+
+#specialPrice .card-price {
+	margin-top: 5px
+}
+
+#specialPrice .card-add-button {
+	margin-top: 5px
+}
+
+#specialPrice .card-add-button button {
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease
+}
+
+#specialPrice .card-add-button button:hover {
+	color: #f8f8f8;
+	opacity: 0.8;
+}
+
+
+/*  newPhones Template */
+
+#newPhones .newPhones_main_container .newPhones_title_container {
+	display: block;
+	position: relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+#newPhones .newPhones_main_container {
+	padding: 5px;
+}
+
+
+
+#newPhones .newPhones_title {
+	margin-bottom: 16px;
+	margin-top: 8px;
+
+}
+
+#newPhones .newPhones_nav_container {
+	display: block;
+	position: absolute;
+	right: 5px;
+	bottom: 14px
+}
+
+#newPhones .newPhones_nav {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	padding: 0.4em;
+	width: 1.7em;
+	height: 1.7em;
+	border-radius: 100%;
+}
+
+#newPhones .newPhones_nav i {
+	color: #dadada;
+	font-size: 14px;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease
+}
+
+#newPhones .newPhones_prev:hover {
+	background: #f8f9fa;
+}
+
+#newPhones .newPhones_prev:hover i {
+	color: #000000;
+}
+
+#newPhones .newPhones_next:hover {
+	background: linear-gradient(to right, #0250c5 0%, #d43f8d 100%);
+
+}
+
+#newPhones .newPhones_next:hover i {
+	color: #ffffff
+}
+
+#newPhones .newPhones_prev {
+	margin-right: 10px
+}
+
+#newPhones .newPhones_slider_container {
+	padding-top: 13px;
+}
+
+#newPhones .newPhones_item {
+	width: 100%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 30px;
+	padding-right: 30px;
+
+
+}
+
+#newPhones .newPhones_item {
+	border: 1px solid;
+	border-color: transparent;
+
+}
+
+
+#newPhones .newPhones_item:hover {
+	border: 1px solid;
+	border-image: linear-gradient(20deg, #f92056 38%, #00deff 65%);
+	border-image-slice: 1;
+}
+
+#newPhones .product-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-self: center;
+	width: 150px;
+	height: 150px;
+
+}
+
+#newPhones .product-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	margin-top: 15px
+}
+
+#newPhones .product-name {
+	height: 70px;
+}
+
+#newPhones .owl-carousel .newPhones_item .newPhones_product:hover .product-name span {
+	background: linear-gradient(to right, #0250c5 0%, #d43f8d 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: #0250c5;
+
+}
+
+#newPhones .product-rating {
+	margin-top: 10px
+}
+
+#newPhones .product-price {
+	margin-top: 5px
+}
+
+#newPhones .product-add-button {
+	margin-top: 5px
+}
+
+#newPhones .product-add-button button {
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease
+}
+
+#newPhones .product-add-button button:hover {
+	color: #f8f8f8;
+	opacity: 0.8;
+}
+
+/*  shopCart Template  */
+#shopCart .product-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-self: center;
+	width: 120px;
+	height: 120px;
+
+}
+
+#shopCart .table thead th td {
+	vertical-align: middle !important;
+}
+
+/*# sourceMappingURL=style.css.map */

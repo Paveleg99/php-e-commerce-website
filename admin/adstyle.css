@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600&family=Montserrat:wght@100;300;400&family=Raleway:wght@100;200;400&family=Rubik:wght@300;400;500&display=swap');
+
+/*              Sass Template           */
+/*  global classes  */
+button,
+button:focus {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+/* typography classes */
+
+
+.font-rale {
+	font-family: "Raleway", cursive;
+}
+
+.font-rubik {
+	font-family: "Rubik", cursive;
+}
+
+.font-montserrat {
+	font-family: "Montserrat", cursive;
+}
+
+.font-size-12 {
+	font-size: 12px;
+}
+
+.font-size-14 {
+	font-size: 14px;
+}
+
+.font-size-16 {
+	font-size: 16px;
+}
+
+.font-size-18 {
+	font-size: 20px;
+}
+
+.font-size-20 {
+	font-size: 20px;
+}
+
+.font-size-26 {
+	font-size: 26px;
+}
+
+.font-weight-light {
+	font-weight: 300;
+}
+
+.font-weight-normal {
+	font-weight: 400;
+}
+
+.font-weight-title {
+	font-weight: 500;
+}
+
+/* Color Template  */
+.color-primary {
+	color: #000000;
+}
+
+.color-light {
+	color: #FFFFFF
+}
+
+
+.color-primary-bg {
+	background: linear-gradient(to right, #0250c5 0%, #d43f8d 100%);
+}
+
+.color-primary-bg-medium {
+	background: linear-gradient(to right, #0250c5be 0%, #d43f8cbb 100%);
+
+}
+
+.color-primary-bg-light {
+	background: linear-gradient(to right, #0250c582 0%, #d43f8c84 100%);
+
+}
+
+.color-fon-bg {
+	background: #f8f8f8
+}
+
+.color-gradient {
+	background: linear-gradient(to right, #0250c5 0%, #d43f8d 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: #000000;
+}
+
+.color-second {
+	color: #00A5C4;
+}
+
+.color-second-bg {
+	background: #00A5C4;
+}
+
+.color-yellow {
+	color: #FFD289;
+}
+
+.color-yellow-bg {
+	background: #FFD289;
+}
+
+/*general template*/
+.button-std {
+	background: linear-gradient(to right, #0250c5be 0%, #d43f8cbb 100%);
+	font-weight: 400;
+
+}
+
+.button-std:hover {
+	color: #f8f8f8;
+	opacity: 0.8;
+}
+
+
+/*login template*/
+#login-main {
+	width: 100%;
+	height: calc(100%);
+	background: white;
+}
+
+#login-right {
+	position: absolute;
+	right: 0;
+	width: 40%;
+	height: calc(100%);
+	background: white;
+	display: flex;
+	align-items: center;
+}
+
+#login-left {
+	position: absolute;
+	left: 0;
+	width: 60%;
+	height: calc(100%);
+
+	display: flex;
+	align-items: center;
+}
+
+#login-right .card {
+	margin: auto
+}
+
+#login-main .logo {
+	padding: 30px;
+
+	margin: auto;
+	background: white;
+	border-radius: 50%;
+
+	display: flex;
+	align-items: center;
+}
+
+#login-main .logo img {
+	height: 140px;
+	width: 140px;
+	margin: auto;
+	margin-left: 10px;
+}
+
+/* orderList Section Template */
+
+
+#orderList .table-wrapper {
+	background: #fff;
+	padding: 20px 25px;
+	margin: 30px auto;
+	border-radius: 3px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+#orderList .table-title .btn {
+	color: #f8f8f8;
+	float: right;
+	font-size: 13px;
+	border: none;
+}
+
+#orderList .table-title .btn i {
+	float: left;
+	font-size: 21px;
+	margin-right: 5px;
+}
+
+#orderList .table-title .btn span {
+	float: left;
+	margin-top: 2px;
+}
+
+
+#orderList .table-title {
+	color: #fff;
+	padding: 16px 25px;
+	margin: -20px -25px 10px;
+	border-radius: 3px 3px 0 0;
+}
+
+#orderList .table-title h2 {
+	margin: 5px 0 0;
+	font-size: 24px;
+}
+
+#orderList table.table tr th,
+table.table tr td {
+	border-color: #e9e9e9;
+	padding: 12px 15px;
+	vertical-align: middle;
+}
+
+#orderList table.table tr th:first-child {
+	width: 60px;
+}
+
+#orderList table.table tr th:last-child {
+	width: 80px;
+}
+
+#orderList table.table-striped tbody tr:nth-of-type(odd) {
+	background-color: #fcfcfc;
+}
+
+#orderList table.table-striped.table-hover tbody tr:hover {
+	background: #f5f5f5;
+}
+
+#orderList table.table td a {
+	font-weight: bold;
+	color: #566787;
+	display: inline-block;
+	text-decoration: none;
+}
+
+#orderList table.table td a:hover {
+	color: #6f0895;
+}
+
+#orderList table.table td a.view {
+	width: 30px;
+	height: 30px;
+	color: #6f0895;
+	border: 2px solid;
+	border-radius: 30px;
+	text-align: center;
+}
+
+#orderList table.table td a.view i {
+	font-size: 22px;
+	margin: 2px 0 0 1px;
+}
