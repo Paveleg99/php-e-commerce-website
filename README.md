@@ -1,6 +1,6 @@
 # php-e-commerce-website
 
-Just my diplom php project
+Just my diploma php project
 
 Admin Account:
 Login: admin
